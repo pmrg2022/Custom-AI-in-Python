@@ -21,4 +21,5 @@ Chat preview:
 
 ---
 
+#### This AI was made in Python 3.11
 ###### The AI will get improvements over time.
