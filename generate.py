@@ -7,8 +7,15 @@ from model import SimpleGPT
 # Settings
 # =========================
 
-MAX_LENGTH = 64
 MODEL_FILE = "model.pth"
+
+# Used only as a fallback for checkpoints saved before "config" was stored
+DEFAULT_CONFIG = {
+    "embed_size": 128,
+    "num_heads": 4,
+    "num_layers": 2,
+    "max_length": 64,
+}
 
 # =========================
 # Load checkpoint
@@ -20,6 +27,9 @@ checkpoint = torch.load(
 )
 
 vocab = checkpoint["vocab"]
+config = checkpoint.get("config", DEFAULT_CONFIG)
+
+MAX_LENGTH = config["max_length"]
 
 # =========================
 # Rebuild tokenizer
@@ -41,9 +51,9 @@ VOCAB_SIZE = len(vocab)
 
 model = SimpleGPT(
     vocab_size=VOCAB_SIZE,
-    embed_size=128,
-    num_heads=4,
-    num_layers=2,
+    embed_size=config["embed_size"],
+    num_heads=config["num_heads"],
+    num_layers=config["num_layers"],
     max_length=MAX_LENGTH
 )
 
@@ -57,7 +67,7 @@ model.eval()
 # Generate text
 # =========================
 
-def generate(prompt, max_new_tokens=30):
+def generate(prompt, max_new_tokens=30, temperature=0.8, top_k=20):
 
     tokens = tokenizer.encode(prompt)
 
@@ -75,9 +85,15 @@ def generate(prompt, max_new_tokens=30):
         next_token_logits = outputs[0, -1]
 
         # Temperature sampling
-        temperature = 0.8
-
         logits = next_token_logits / temperature
+
+        # Top-k filtering: only sample from the k most likely tokens,
+        # which keeps a small, undertrained model from wandering into junk
+        if top_k is not None and top_k < logits.size(-1):
+            top_values, top_indices = torch.topk(logits, top_k)
+            filtered = torch.full_like(logits, float("-inf"))
+            filtered[top_indices] = top_values
+            logits = filtered
 
         probs = torch.softmax(logits, dim=0)
 
