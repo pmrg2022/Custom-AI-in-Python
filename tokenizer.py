@@ -1,4 +1,13 @@
 import json
+import re
+
+# Special tokens are matched whole, first, so they stay single tokens
+# instead of being torn apart into "<", "END", ">" by the general rules
+# below. Then: words (with optional contractions like "don't"), or
+# single punctuation characters, so punctuation no longer gets glued
+# onto words as separate vocab entries (e.g. "Hello" vs "Hello.").
+TOKEN_PATTERN = re.compile(r"<PAD>|<UNK>|<END>|\w+(?:'\w+)?|[^\w\s]")
+
 
 class SimpleTokenizer:
 
@@ -6,6 +15,9 @@ class SimpleTokenizer:
 
         self.word_to_id = {}
         self.id_to_word = {}
+
+    def _split(self, text):
+        return TOKEN_PATTERN.findall(text)
 
     def build_vocab(self, jsonl_file):
 
@@ -19,12 +31,8 @@ class SimpleTokenizer:
 
                 text = data["text"]
 
-                for word in text.split():
-
-                    word = word.strip()
-
-                    if word:
-                        words.add(word)
+                for word in self._split(text):
+                    words.add(word)
 
         # Special tokens
         # Remove special tokens if already present
@@ -54,16 +62,11 @@ class SimpleTokenizer:
 
         tokens = []
 
-        for word in text.split():
-
-            word = word.strip()
-
-            if not word:
-                continue
+        for word in self._split(text):
 
             token = self.word_to_id.get(
                 word,
-                self.word_to_id["<UNK>"]
+                self.word_to_id.get("<UNK>", 1)
             )
 
             tokens.append(token)
@@ -83,7 +86,12 @@ class SimpleTokenizer:
 
             words.append(word)
 
-        return " ".join(words)
+        text = " ".join(words)
+
+        # Tidy up spacing so punctuation hugs the word before it
+        text = re.sub(r"\s+([.,!?;:])", r"\1", text)
+
+        return text
 
 
 # =========================
