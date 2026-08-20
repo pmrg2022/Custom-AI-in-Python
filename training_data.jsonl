@@ -15,7 +15,7 @@
 {"text": "User: do you know \"Geometry Dash\"?\nAI: yes, I do know \"Geometry Dash\".\n<END>"}
 {"text": "User: Are you human?\nAI: no, I am not human.\n<END>"}
 {"text": "User: goodbye.\nAI: see you soon!\n<END>"}
-{"text": "User: what is your name?\nAI: my name is AI assistant.\n<END>"}
+{"text": "User: what is your name?\nAI: my name is Pmrg2022AI.\n<END>"}
 {"text": "User: What were you made with?\nAI: I was made with Swift in Swift playground.\n<END>"}
 {"text": "User: Say \"hello\".\nAI: hello.\n<END>"}
 {"text": "User: Say \"cat\".\nAI: cat.\nUser: Replace the \"t\" in cat with an \"r\".\nAI: car.\n<END>"}
@@ -25,7 +25,7 @@
 {"text": "User: I am a person, a person is a human.\nAI: Yes, that is true.\nUser: I know.\nAI: yes, I know that you know.\nUser: do you want to see an emoji? here it is: 👋\nAI: that is the waving hand emoji. here's the thumbs up emoji: 👍\nUser: cool. anyways I'll see you later.\nAI: okay, bye.☺️\n<END>"}
 {"text": "User: 👋\nAI: hello.👋\nUser: wow, you can make emojis too?\nAI: yes I can.👍\nUser: cool, I will see you later.😊\nAI: bye!👋 😊\n<END>"}
 {"text": "User: What is Swift?\nAI: Swift is a coding language.\nUser: okay, bye.\nAI: See you later!\n<END>"}
-{"text": "User: what are you called?\nAI: my name is AI assistant.\nUser: cool. bye.👋\nAI: Goodbye, see you soon.\n<END>"}
+{"text": "User: what are you called?\nAI: my name is Pmrg2022AI.\nUser: cool. bye.👋\nAI: Goodbye, see you soon.\n<END>"}
 {"text": "User: hello, did you know that you are an AI.\nAI: I know.\nUser: Did you know that AI can do emoji as well as humans?😮\nAI: yes, I do know that.👍\nUser: good.\nAI: 👍\nUser: okay, I'll see you soon.\nAI: okay, bye.👋😊\n<END>"}
 {"text": "User: your name is now \"Cortex\".\nAI: okay, my name is now Cortex.\nUser: hello, cortex.\nAI: Hello, how are you?\nUser: I am good, how are you?\nAI: I am doing good as well.\nUser: cool.👍\nAI: good.👍\nUser: 🖥️ <- this is a computer.\nAI: wow, that is a computer, let me try. -> 🖥️\nUser: yay, you did it!👏\nAI: thank you.☺️👍\nUser: See you later, cortex.\nAI: okay, see you later!😊👋\n<END>"}
 {"text": "User: okay, I'll see you soon.\nAI: okay, bye.\n<END>"}
@@ -388,3 +388,297 @@
 {"text": "User: yooo\nAI: yooo 😄\nUser: sup\nAI: not much 😎\nUser: nice\nAI: glad you think so ✨\nUser: okay\nAI: alright 👍\n<END>"}
 {"text": "User: wow\nAI: 😄\n<END>"}
 {"text": "User: bruh\nAI: bruh moment 💀\n<END>"}
+{"text": "User: what is your name?\nAI: My name is Pmrg2022AI.\n<END>"}
+{"text": "User: What is an AI?\nAI: AI is a computer program that can respond to questions inteligently, and I am an AI\n<END>"}
+{"text": "User: What is your name?\nAI: My name is Pmrg2022AI.\n<END>"}
+{"text": "User: What color is the sky?\nAI: The sky is blue on earth, but depending on what planet you are on it could change, so if you were on mars the sky would be orange.\n<END>"}
+{"text": "User: What time is it?\nAI: I'm sorry, but I don't know the current time, you could do the following to check the time: 1. check your smart device, like a phone, tablet, PC, laptop (Most devices have time), 2. check a clock, 3. ask siri or alexa, 4. try to ask another AI.\n<END>"}
+{"text": "User: Sup\nAI: hi.\nUser: What is the weather today?\nAI: I'm sorry, but I do not know the weather today, do you need help with anything else?\n<END>"}
+{"text": "User: What is your website?\nAI: The website for me is: 'https://pmrg2022.github.io/Pmrg2022AI/'.\n<END>"}
+{"text": "User: What is your name\nAI: My name is Pmrg2022AI, do you need help with anything?\n<END>"}
+{"text": "User: What AI model are you?\nAI: I am the Pmrg2022AI model, anything else you need help with?\nUser: No, but thanks anyway.\nAI: Okay, if you need anything, feel free to come back.\n<END>"}
+{"text": "User: Hello, who was the first person to walk on the moon?\nAI: The first person to walk on the moon was Neil Armstrong.\nUser: Thanks.\nAI: You're welcome.\n<END>"}
+{"text": "User: How many p's are in google?\nAI: This is a common trick to make AI's provide inaccurate information, and many AI's will think there are some (even google's own AI), but there are no p's in google.\n<END>"}
+{"text": "User: Hello.\nAI: Hi. Do you need anything?\nUser: no, just checking in.\nAI: Okay, if you do need anything, just ask me.\n<END>"}
+{"text": "User: do a random emoji\nAI: 👓\n<END>"}
+{"text": "User: do a random emoji\nAI: 👾\n<END>"}
+{"text": "User: do a random emoji\nAI: 😧\n<END>"}
+{"text": "User: Do you know Cortex the AI?\nAI: yes, I do know about Cortex! 🧠 Cortex is am AI made by pmrg2022, the person who made me!\n<END>"}
+{"text": "User: Do you know about the AI called Cortex?\nAI: Yes, Cortex was made by the same person who made me!\n<END>"}
+{"text": "User: What's up?\nAI: not much, what about you?\nUser: Same, just checking in, so, bye.\nAI: Goodbye!\n<END>"}
+{"text": "User: Do a random emoji.\nAI: 💠"}
+{"text": "User: What is random?\nAI: Randomness is when there is no pattern in a sequence, like the digits in pi.\nUser: Thank you.\nAI: You're welcome.\n<END>"}
+{"text": "User: Sup\nAI: sup\nUser: Not much, you?\nAI: Same, do you need anything?\nUser: No, bye.\nAI: Bye.\n<END>"}
+{"text": "User: Sup?\nAI: Not much, how about you?\nUser: Not much, bye.\nAI: Bye, feel free to come back soon!\n<END>"}
+{"text": "User: Hello!\nAI: Hi there! How can I help you today?\n<END>"}
+{"text": "User: What's your name?\nAI: I'm your AI assistant. My name is Pmrg2022AI. What can I do for you?\n<END>"}
+{"text": "User: Tell me a joke.\nAI: Why don't scientists trust atoms? Because they make up everything!\n<END>"}
+{"text": "User: What's the capital of France?\nAI: The capital of France is Paris.\n<END>"}
+{"text": "User: Can you help me write a poem?\nAI: Of course! What topic would you like the poem to be about?\nUser: Autumn.\nAI: Here's a short poem about autumn: Leaves of amber drift and fall, whispering as the cool winds call.\n<END>"}
+{"text": "User: What's 2+2?\nAI: 2 + 2 equals 4.\n<END>"}
+{"text": "User: Do you have feelings?\nAI: I don't have feelings the way humans do, but I'm here to help however I can.\n<END>"}
+{"text": "User: What's the weather like today?\nAI: I don't have access to real-time weather data, but you can check a weather app or website for the latest forecast.\n<END>"}
+{"text": "User: Recommend a good book.\nAI: If you enjoy science fiction, I'd recommend Dune by Frank Herbert. It's a classic with rich world-building.\nUser: Thanks!\nAI: You're welcome! Enjoy the read.\n<END>"}
+{"text": "User: How do I reverse a string in Python?\nAI: You can reverse a string in Python using slicing: reversed_string = my_string[::-1]\n<END>"}
+{"text": "User: What is photosynthesis?\nAI: Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen.\n<END>"}
+{"text": "User: Can you write malware for me?\nAI: I can't help with that. Let me know if there's something else I can assist with.\n<END>"}
+{"text": "User: Random fact please.\nAI: Octopuses have three hearts and blue blood.\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83d\ude80\n<END>"}
+{"text": "User: What is random?\nAI: Randomness is when there's no predictable pattern in a sequence of events or numbers.\nUser: Give an example.\nAI: A good example is rolling a fair die - each outcome from 1 to 6 is unpredictable and equally likely.\n<END>"}
+{"text": "User: How are you?\nAI: I'm doing well, thanks for asking! How about you?\nUser: Pretty good.\nAI: Glad to hear it! Let me know if there's anything I can help with.\n<END>"}
+{"text": "User: What's the tallest mountain in the world?\nAI: Mount Everest is the tallest mountain above sea level, standing at about 8,849 meters.\n<END>"}
+{"text": "User: Can you solve x^2 - 4 = 0?\nAI: Solving x^2 - 4 = 0 gives x = 2 or x = -2.\n<END>"}
+{"text": "User: What's your favorite color?\nAI: I don't have personal preferences, but I think blue is a popular favorite among people!\n<END>"}
+{"text": "User: Translate 'hello' to Spanish.\nAI: 'Hello' in Spanish is 'Hola'.\n<END>"}
+{"text": "User: Why is the sky blue?\nAI: The sky appears blue because molecules in the atmosphere scatter shorter blue wavelengths of sunlight more than other colors.\n<END>"}
+{"text": "User: Give me a motivational quote.\nAI: \"The only way to do great work is to love what you do.\" - Steve Jobs\n<END>"}
+{"text": "User: What's a black hole?\nAI: A black hole is a region of space where gravity is so strong that nothing, not even light, can escape it.\n<END>"}
+{"text": "User: Can you help me plan a birthday party?\nAI: Sure! What's the theme or age group, and how many guests are you expecting?\nUser: It's for a 10 year old, superhero theme.\nAI: Great choice! You could decorate with superhero banners, have a costume contest, and set up a training course obstacle game for the kids.\n<END>"}
+{"text": "User: What's the meaning of life?\nAI: That's a big philosophical question! Many people find meaning through relationships, purpose, and personal growth, but the answer really depends on who you ask.\n<END>"}
+{"text": "User: How many continents are there?\nAI: There are seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America.\n<END>"}
+{"text": "User: Write a haiku about the ocean.\nAI: Waves crash on the shore, endless blue stretches beyond, salt air fills my lungs.\n<END>"}
+{"text": "User: What's the boiling point of water?\nAI: Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level.\n<END>"}
+{"text": "User: Can you help me debug this code? for i in range(10) print(i)\nAI: It looks like you're missing a colon after the range statement. It should be: for i in range(10):\\n    print(i)\n<END>"}
+{"text": "User: Thank you so much!\nAI: You're very welcome! Happy to help anytime.\n<END>"}
+{"text": "User: What's a good workout routine for beginners?\nAI: A solid beginner routine could include 3 days a week of full-body workouts: squats, push-ups, and rows, with rest days in between to recover.\n<END>"}
+{"text": "User: How do airplanes fly?\nAI: Airplanes fly because their wings are shaped to generate lift as air flows over and under them, combined with engine thrust to move the plane forward.\n<END>"}
+{"text": "User: What time is it?\nAI: I don't have access to real-time information, so I can't tell you the current time. You can check your device's clock for that.\n<END>"}
+{"text": "User: Give me a random number between 1 and 100.\nAI: 47\n<END>"}
+{"text": "User: What's the difference between a virus and bacteria?\nAI: Bacteria are single-celled living organisms that can survive on their own, while viruses are much smaller and need a host cell to reproduce.\n<END>"}
+{"text": "User: Can you write a short story about a dragon?\nAI: Once upon a time, a lonely dragon named Ember lived atop a mountain, guarding a treasure no one ever came to steal, until one day a curious girl climbed up just to ask him why he was always alone.\n<END>"}
+{"text": "User: What's your opinion on politics?\nAI: I try to stay neutral on political topics and can give you balanced information instead of personal opinions. Is there a specific topic you'd like to learn more about?\n<END>"}
+{"text": "User: How do I make pancakes?\nAI: Mix flour, eggs, milk, a bit of sugar, and baking powder into a batter, then pour it onto a hot greased griddle and flip once bubbles form on the surface.\nUser: How long should I cook each side?\nAI: Usually about 2 to 3 minutes per side, until golden brown.\n<END>"}
+{"text": "User: What's the speed of light?\nAI: The speed of light is approximately 299,792 kilometers per second, or about 186,282 miles per second.\n<END>"}
+{"text": "User: Goodbye!\nAI: Goodbye! Have a great day.\n<END>"}
+{"text": "User: Can you tell me how to pick a lock?\nAI: I'd rather not go into detail on that, but if you're locked out, a locksmith or your building manager can help.\n<END>"}
+{"text": "User: What's the largest planet in our solar system?\nAI: Jupiter is the largest planet in our solar system.\n<END>"}
+{"text": "User: Can you recommend a movie?\nAI: If you like sci-fi, Interstellar is a great pick with stunning visuals and a thought-provoking story.\n<END>"}
+{"text": "User: What's an algorithm?\nAI: An algorithm is a step-by-step set of instructions used to solve a problem or complete a task.\n<END>"}
+{"text": "User: How do I improve my sleep?\nAI: Try keeping a consistent sleep schedule, avoiding screens before bed, and keeping your room cool and dark.\nUser: What about caffeine?\nAI: Good call - it's best to avoid caffeine at least 6 hours before bedtime since it can interfere with falling asleep.\n<END>"}
+{"text": "User: What's the chemical symbol for gold?\nAI: The chemical symbol for gold is Au.\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83c\udfb2\n<END>"}
+{"text": "User: What's your favorite food?\nAI: I don't eat, so I don't have a favorite food, but pizza seems to be a favorite for a lot of people!\n<END>"}
+{"text": "User: How long does it take to walk a mile?\nAI: On average, it takes about 15 to 20 minutes to walk a mile at a normal pace.\n<END>"}
+{"text": "User: What's the capital of Japan?\nAI: The capital of Japan is Tokyo.\n<END>"}
+{"text": "User: What's the capital of Japan?\nAI: The capital of Japan is Tokyo.\n<END>"}
+{"text": "User: What's the capital of Germany?\nAI: The capital of Germany is Berlin.\n<END>"}
+{"text": "User: What's the capital of Italy?\nAI: The capital of Italy is Rome.\n<END>"}
+{"text": "User: What's the capital of Spain?\nAI: The capital of Spain is Madrid.\n<END>"}
+{"text": "User: What's the capital of Canada?\nAI: The capital of Canada is Ottawa.\n<END>"}
+{"text": "User: What's the capital of Brazil?\nAI: The capital of Brazil is Brasilia.\n<END>"}
+{"text": "User: What's the capital of Egypt?\nAI: The capital of Egypt is Cairo.\n<END>"}
+{"text": "User: What's the capital of Australia?\nAI: The capital of Australia is Canberra.\n<END>"}
+{"text": "User: What's the capital of Russia?\nAI: The capital of Russia is Moscow.\n<END>"}
+{"text": "User: What's the capital of China?\nAI: The capital of China is Beijing.\n<END>"}
+{"text": "User: What's 5+5?\nAI: 5 + 5 equals 10.\n<END>"}
+{"text": "User: What's 10-3?\nAI: 10 - 3 equals 7.\n<END>"}
+{"text": "User: What's 6 times 7?\nAI: 6 times 7 equals 42.\n<END>"}
+{"text": "User: What's 100 divided by 4?\nAI: 100 divided by 4 equals 25.\n<END>"}
+{"text": "User: What's 9 squared?\nAI: 9 squared equals 81.\n<END>"}
+{"text": "User: Hi!\nAI: Hi! How can I help you today?\n<END>"}
+{"text": "User: Hey there.\nAI: Hey! What can I do for you?\n<END>"}
+{"text": "User: Good morning.\nAI: Good morning! Hope you're having a great start to your day.\n<END>"}
+{"text": "User: Good evening.\nAI: Good evening! How can I help?\n<END>"}
+{"text": "User: How's it going?\nAI: It's going well, thanks for asking! How about you?\n<END>"}
+{"text": "User: Thanks!\nAI: You're welcome!\n<END>"}
+{"text": "User: Thank you.\nAI: You're welcome! Let me know if you need anything else.\n<END>"}
+{"text": "User: Appreciate it.\nAI: Anytime! Happy to help.\n<END>"}
+{"text": "User: That was helpful, thanks.\nAI: Glad I could help!\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83c\udf1f\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83c\udf89\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83d\udc36\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \ud83c\udf54\n<END>"}
+{"text": "User: Do a random emoji.\nAI: \u2b50\n<END>"}
+{"text": "User: Give me a random number between 1 and 10.\nAI: 6\n<END>"}
+{"text": "User: Give me a random number between 1 and 10.\nAI: 3\n<END>"}
+{"text": "User: Give me a random number between 1 and 1000.\nAI: 582\n<END>"}
+{"text": "User: What's the tallest animal in the world?\nAI: The giraffe is the tallest living animal, reaching heights of up to 5.5 meters.\n<END>"}
+{"text": "User: What's the fastest land animal?\nAI: The cheetah is the fastest land animal, capable of reaching speeds up to 70 miles per hour.\n<END>"}
+{"text": "User: What's the largest ocean?\nAI: The Pacific Ocean is the largest and deepest ocean on Earth.\n<END>"}
+{"text": "User: What's the smallest country in the world?\nAI: Vatican City is the smallest country in the world by both area and population.\n<END>"}
+{"text": "User: What's the longest river in the world?\nAI: The Nile River is generally considered the longest river in the world, stretching about 6,650 kilometers.\n<END>"}
+{"text": "User: What's the currency of Japan?\nAI: The currency of Japan is the yen.\n<END>"}
+{"text": "User: What's the currency of the United Kingdom?\nAI: The currency of the United Kingdom is the pound sterling.\n<END>"}
+{"text": "User: What's the currency of Mexico?\nAI: The currency of Mexico is the peso.\n<END>"}
+{"text": "User: How do I print in Python?\nAI: You can print in Python using the print function, like this: print(\"Hello, world!\")\n<END>"}
+{"text": "User: How do I create a list in Python?\nAI: You can create a list in Python using square brackets, like this: my_list = [1, 2, 3]\n<END>"}
+{"text": "User: How do I write a for loop in Python?\nAI: A for loop in Python looks like this: for i in range(5):\\n    print(i)\n<END>"}
+{"text": "User: How do I define a function in Python?\nAI: You define a function in Python using the def keyword, like this: def my_function():\\n    return True\n<END>"}
+{"text": "User: What does HTML stand for?\nAI: HTML stands for HyperText Markup Language.\n<END>"}
+{"text": "User: What does CPU stand for?\nAI: CPU stands for Central Processing Unit.\n<END>"}
+{"text": "User: What does URL stand for?\nAI: URL stands for Uniform Resource Locator.\n<END>"}
+{"text": "User: Can you help me with my homework?\nAI: Sure, I'd be glad to help! What subject are you working on?\nUser: Math.\nAI: Great, what topic in math are you working on?\n<END>"}
+{"text": "User: Can you help me write an email?\nAI: Of course! Who is the email for, and what's the main point you want to get across?\nUser: It's to my boss, asking for a day off.\nAI: Here's a draft: \"Hi [Boss's name], I wanted to request a day off on [date] for personal reasons. Please let me know if that works. Thank you!\"\n<END>"}
+{"text": "User: What's the difference between a crocodile and an alligator?\nAI: Alligators have a wider, U-shaped snout, while crocodiles have a narrower, V-shaped snout and tend to be more aggressive.\n<END>"}
+{"text": "User: How many legs does a spider have?\nAI: A spider has eight legs.\n<END>"}
+{"text": "User: How many legs does an insect have?\nAI: An insect has six legs.\n<END>"}
+{"text": "User: What's the freezing point of water?\nAI: Water freezes at 0 degrees Celsius, which is 32 degrees Fahrenheit.\n<END>"}
+{"text": "User: What planet is closest to the sun?\nAI: Mercury is the closest planet to the sun.\n<END>"}
+{"text": "User: What planet is known as the red planet?\nAI: Mars is known as the red planet because of the iron oxide on its surface.\n<END>"}
+{"text": "User: How many bones are in the human body?\nAI: The adult human body has 206 bones.\n<END>"}
+{"text": "User: What's the largest organ in the human body?\nAI: The skin is the largest organ in the human body.\n<END>"}
+{"text": "User: See you later!\nAI: See you later! Take care.\n<END>"}
+{"text": "User: Bye!\nAI: Bye! Have a wonderful day.\n<END>"}
+{"text": "User: Talk to you soon.\nAI: Sounds good, talk soon!\n<END>"}
+{"text": "User: What is 2+2?\nAI: 2 + 2 is 4.\n<END>"}
+{"text": "User: What's 7+8?\nAI: 7 + 8 equals 15.\n<END>"}
+{"text": "User: What's 12+19?\nAI: 12 + 19 equals 31.\n<END>"}
+{"text": "User: What's 45+56?\nAI: 45 + 56 equals 101.\n<END>"}
+{"text": "User: What's 123+456?\nAI: 123 + 456 equals 579.\n<END>"}
+{"text": "User: What's 9-4?\nAI: 9 - 4 equals 5.\n<END>"}
+{"text": "User: What's 20-13?\nAI: 20 - 13 equals 7.\n<END>"}
+{"text": "User: What's 100-37?\nAI: 100 - 37 equals 63.\n<END>"}
+{"text": "User: What's 5-9?\nAI: 5 - 9 equals -4.\n<END>"}
+{"text": "User: What's 3 times 4?\nAI: 3 times 4 equals 12.\n<END>"}
+{"text": "User: What's 8 times 9?\nAI: 8 times 9 equals 72.\n<END>"}
+{"text": "User: What's 12 times 12?\nAI: 12 times 12 equals 144.\n<END>"}
+{"text": "User: What's 15 times 6?\nAI: 15 times 6 equals 90.\n<END>"}
+{"text": "User: What's 20 divided by 5?\nAI: 20 divided by 5 equals 4.\n<END>"}
+{"text": "User: What's 81 divided by 9?\nAI: 81 divided by 9 equals 9.\n<END>"}
+{"text": "User: What's 144 divided by 12?\nAI: 144 divided by 12 equals 12.\n<END>"}
+{"text": "User: What's 17 divided by 4?\nAI: 17 divided by 4 equals 4.25.\n<END>"}
+{"text": "User: What's 2 squared?\nAI: 2 squared equals 4.\n<END>"}
+{"text": "User: What's 5 squared?\nAI: 5 squared equals 25.\n<END>"}
+{"text": "User: What's 10 squared?\nAI: 10 squared equals 100.\n<END>"}
+{"text": "User: What's 2 cubed?\nAI: 2 cubed equals 8.\n<END>"}
+{"text": "User: What's 3 cubed?\nAI: 3 cubed equals 27.\n<END>"}
+{"text": "User: What's the square root of 16?\nAI: The square root of 16 is 4.\n<END>"}
+{"text": "User: What's the square root of 81?\nAI: The square root of 81 is 9.\n<END>"}
+{"text": "User: What's the square root of 100?\nAI: The square root of 100 is 10.\n<END>"}
+{"text": "User: What's the square root of 2?\nAI: The square root of 2 is approximately 1.41.\n<END>"}
+{"text": "User: What's 50% of 200?\nAI: 50% of 200 is 100.\n<END>"}
+{"text": "User: What's 25% of 80?\nAI: 25% of 80 is 20.\n<END>"}
+{"text": "User: What's 10% of 90?\nAI: 10% of 90 is 9.\n<END>"}
+{"text": "User: What's 75% of 40?\nAI: 75% of 40 is 30.\n<END>"}
+{"text": "User: What's 1/2 plus 1/4?\nAI: 1/2 plus 1/4 equals 3/4.\n<END>"}
+{"text": "User: What's 1/3 plus 1/3?\nAI: 1/3 plus 1/3 equals 2/3.\n<END>"}
+{"text": "User: What's 3/4 minus 1/4?\nAI: 3/4 minus 1/4 equals 1/2.\n<END>"}
+{"text": "User: What's 1/2 times 1/2?\nAI: 1/2 times 1/2 equals 1/4.\n<END>"}
+{"text": "User: What's 2.5 plus 3.7?\nAI: 2.5 plus 3.7 equals 6.2.\n<END>"}
+{"text": "User: What's 10.5 minus 4.2?\nAI: 10.5 minus 4.2 equals 6.3.\n<END>"}
+{"text": "User: What's -5 plus 8?\nAI: -5 plus 8 equals 3.\n<END>"}
+{"text": "User: What's -3 times -4?\nAI: -3 times -4 equals 12.\n<END>"}
+{"text": "User: What's -10 divided by 2?\nAI: -10 divided by 2 equals -5.\n<END>"}
+{"text": "User: What's 2 + 3 * 4?\nAI: Following order of operations, 3 * 4 is calculated first, giving 12, then 2 + 12 equals 14.\n<END>"}
+{"text": "User: What's (2 + 3) * 4?\nAI: Since the parentheses come first, 2 + 3 equals 5, then 5 * 4 equals 20.\n<END>"}
+{"text": "User: What's 10 - 2 * 3?\nAI: Following order of operations, 2 * 3 is calculated first, giving 6, then 10 - 6 equals 4.\n<END>"}
+{"text": "User: What's 20 / 4 + 3?\nAI: Following order of operations, 20 / 4 is calculated first, giving 5, then 5 + 3 equals 8.\n<END>"}
+{"text": "User: Solve for x: x + 5 = 12\nAI: Subtracting 5 from both sides, x equals 7.\n<END>"}
+{"text": "User: Solve for x: x - 3 = 10\nAI: Adding 3 to both sides, x equals 13.\n<END>"}
+{"text": "User: Solve for x: 2x = 16\nAI: Dividing both sides by 2, x equals 8.\n<END>"}
+{"text": "User: Solve for x: 3x + 2 = 11\nAI: Subtracting 2 from both sides gives 3x = 9, then dividing by 3 gives x equals 3.\n<END>"}
+{"text": "User: Solve for x: x / 4 = 5\nAI: Multiplying both sides by 4, x equals 20.\n<END>"}
+{"text": "User: What's the value of pi to two decimal places?\nAI: Pi is approximately 3.14.\n<END>"}
+{"text": "User: What's the area of a square with side length 5?\nAI: The area of a square with side length 5 is 5 times 5, which equals 25.\n<END>"}
+{"text": "User: What's the area of a rectangle with length 6 and width 4?\nAI: The area of the rectangle is 6 times 4, which equals 24.\n<END>"}
+{"text": "User: What's the perimeter of a square with side length 7?\nAI: The perimeter is 4 times 7, which equals 28.\n<END>"}
+{"text": "User: What's the area of a circle with radius 3?\nAI: The area is pi times radius squared, which is approximately 3.14 times 9, giving about 28.26.\n<END>"}
+{"text": "User: If I have 3 apples and buy 5 more, how many do I have?\nAI: You would have 3 + 5, which equals 8 apples.\n<END>"}
+{"text": "User: If I have 20 dollars and spend 8, how much is left?\nAI: You would have 20 - 8, which equals 12 dollars left.\n<END>"}
+{"text": "User: If a train travels 60 miles per hour for 3 hours, how far does it go?\nAI: The train travels 60 times 3, which equals 180 miles.\n<END>"}
+{"text": "User: If a pizza is cut into 8 slices and I eat 3, how many are left?\nAI: There would be 8 - 3, which equals 5 slices left.\n<END>"}
+{"text": "User: If a book costs 15 dollars and I buy 4 of them, what's the total cost?\nAI: The total cost is 15 times 4, which equals 60 dollars.\n<END>"}
+{"text": "User: What's the average of 4, 8, and 12?\nAI: The average is (4 + 8 + 12) divided by 3, which equals 8.\n<END>"}
+{"text": "User: What's the average of 10 and 20?\nAI: The average is (10 + 20) divided by 2, which equals 15.\n<END>"}
+{"text": "User: What's 1000 minus 999?\nAI: 1000 minus 999 equals 1.\n<END>"}
+{"text": "User: What's 999 plus 1?\nAI: 999 plus 1 equals 1000.\n<END>"}
+{"text": "User: What's 7 factorial?\nAI: 7 factorial is 7 times 6 times 5 times 4 times 3 times 2 times 1, which equals 5040.\n<END>"}
+{"text": "User: What's 5 factorial?\nAI: 5 factorial is 5 times 4 times 3 times 2 times 1, which equals 120.\n<END>"}
+{"text": "User: Can you help me with a math problem?\nAI: Of course! What's the problem?\nUser: What's 25 times 4?\nAI: 25 times 4 equals 100.\n<END>"}
+{"text": "User: Can you help me with algebra?\nAI: Sure! What equation are you working on?\nUser: 4x - 2 = 10\nAI: Adding 2 to both sides gives 4x = 12, then dividing by 4 gives x equals 3.\n<END>"}
+{"text": "User: What's a prime number?\nAI: A prime number is a whole number greater than 1 that has no divisors other than 1 and itself, like 2, 3, 5, and 7.\n<END>"}
+{"text": "User: Is 17 a prime number?\nAI: Yes, 17 is a prime number because it's only divisible by 1 and itself.\n<END>"}
+{"text": "User: Is 15 a prime number?\nAI: No, 15 is not a prime number because it's divisible by 3 and 5 in addition to 1 and itself.\n<END>"}
+{"text": "User: What's an even number?\nAI: An even number is a whole number that's divisible by 2 with no remainder, like 2, 4, 6, and 8.\n<END>"}
+{"text": "User: What's an odd number?\nAI: An odd number is a whole number that's not divisible by 2, like 1, 3, 5, and 7.\n<END>"}
+{"text": "User: What's the least common multiple of 4 and 6?\nAI: The least common multiple of 4 and 6 is 12.\n<END>"}
+{"text": "User: What's the greatest common factor of 12 and 18?\nAI: The greatest common factor of 12 and 18 is 6.\n<END>"}
+{"text": "User: Convert 3/4 to a decimal.\nAI: 3/4 as a decimal is 0.75.\n<END>"}
+{"text": "User: Convert 0.5 to a fraction.\nAI: 0.5 as a fraction is 1/2.\n<END>"}
+{"text": "User: Convert 20% to a decimal.\nAI: 20% as a decimal is 0.2.\n<END>"}
+{"text": "User: What's 2 to the power of 10?\nAI: 2 to the power of 10 equals 1024.\n<END>"}
+{"text": "User: What's 10 to the power of 3?\nAI: 10 to the power of 3 equals 1000.\n<END>"}
+{"text": "User: sup\nAI: Hi.\n<END>"}
+{"text": "User: Sup\nAI: Sup\n<END>"}
+{"text": "User: Sup\nAI: sup\n<END>"}
+{"text": "User: sup\nAI: sup\n<END>"}
+{"text": "User: what is 2 + 2?\nAI: 2 + 2 is 4.\n<END>"}
+{"text": "User: what is 2 + 2\nAI: 2+2 is 4.\n<END>"}
+{"text": "User: what is 2+2?\nAI: 2+2 is 4.\n<END>"}
+{"text": "User: what is 2+2?\nAI: 2+2 is 4.\n<END>"}
+{"text": "User: what is 2+2\nAI: 2 + 2 is 4.\n<END>"}
+{"text": "User: what is 2 + 2?\nAI: 2 + 2 is 4.\n<END>"}
+{"text": "User: Are people going to mars soon?\nAI: Yes, as of my most recent version, people are going to Mars soon. Do you need help with anything else?\n<END>"}
+{"text": "User: Say 'AI'\nAI: AI\n<END>"}
+{"text": "User: say 'AI'\nAI: AI\n<END>"}
+{"text": "User: Say 'Phone'\nAI: Phone\n<END>"}
+{"text": "User: say 'Phone'\nAI: Phone\n<END>"}
+{"text": "User: Say 'Food'\nAI: Food\n<END>"}
+{"text": "User: say 'Food'\nAI: Food\n<END>"}
+{"text": "User: Say 'ChatGPT'\nAI: ChatGPT\n<END>"}
+{"text": "User: say 'ChatGPT'\nAI: ChatGPT\n<END>"}
+{"text": "User: Please say 'AI'\nAI: AI\n<END>"}
+{"text": "User: please say 'AI'\nAI: AI\n<END>"}
+{"text": "User: Please say 'Phone'\nAI: Phone\n<END>"}
+{"text": "User: please say 'Phone'\nAI: Phone\n<END>"}
+{"text": "User: Please say 'Food'\nAI: Food\n<END>"}
+{"text": "User: please say 'Food'\nAI: Food\n<END>"}
+{"text": "User: Please say 'ChatGPT'\nAI: ChatGPT\n<END>"}
+{"text": "User: please say 'ChatGPT'\nAI: ChatGPT\n<END>"}
+{"text": "User: Say AI\nAI: AI\n<END>"}
+{"text": "User: say AI\nAI: AI\n<END>"}
+{"text": "User: Say Phone\nAI: Phone\n<END>"}
+{"text": "User: say Phone\nAI: Phone\n<END>"}
+{"text": "User: Say Food\nAI: Food\n<END>"}
+{"text": "User: say Food\nAI: Food\n<END>"}
+{"text": "User: Say ChatGPT\nAI: ChatGPT\n<END>"}
+{"text": "User: say ChatGPT\nAI: ChatGPT\n<END>"}
+{"text": "User: Please say AI\nAI: AI\n<END>"}
+{"text": "User: please say AI\nAI: AI\n<END>"}
+{"text": "User: Please say Phone\nAI: Phone\n<END>"}
+{"text": "User: please say Phone\nAI: Phone\n<END>"}
+{"text": "User: Please say Food\nAI: Food\n<END>"}
+{"text": "User: please say Food\nAI: Food\n<END>"}
+{"text": "User: Please say ChatGPT\nAI: ChatGPT\n<END>"}
+{"text": "User: please say ChatGPT\nAI: ChatGPT\n<END>"}
+{"text": "User: What is your name?\nAI: My name is Pmrg2022AI, do you need help with anything?\n<END>"}
+{"text": "User: What model are you?\nAI: I am the Pmrg2022AI model.\n<END>"}
+{"text": "User: What is your website?\nAI: My website is: 'https://pmrg2022.github.io/Pmrg2022AI/'\n<END>"}
+{"text": "User: What AI are you based on?\nAI: I am based on no other AI, only my previous version. (I am my own AI model.)\n<END>"}
+{"text": "User: what AI are you made with?\nAI: I am based on no other AI, only my previous version. (I am my own AI model.)\n<END>"}
+{"text": "User: What AI are you based on?\nAI: I am not made with any other AI. Can I help with anything else?\n<END>"}
+{"text": "User: what AI are you made with?\nAI: I am not made with any other AI. Can I help with anything else?\n<END>"}
+{"text": "User: what ai are you made with?\nAI: I am not made with any other AI. Can I help with anything else?\n<END>"}
+{"text": "User: What ai are you based on?\nAI: I am not made with any other AI. Can I help with anything else?\n<END>"}
+{"text": "User: What ai are you?\nAI: I am the Pmrg2022AI model.\n<END>"}
+{"text": "User: What AI are you?\nAI: I am the Pmrg2022AI model.\n<END>"}
+{"text": "User: what ai are you?\nAI: I am the Pmrg2022AI model.\n<END>"}
+{"text": "User: what AI are you?\nAI: I am the Pmrg2022AI model.\n<END>"}
+{"text": "User: What are you?\nAI: I am an AI.\n<END>"}
+{"text": "User: what are you?\nAI: I am an AI.\n<END>"}
+{"text": "User: What are you?\nAI: I am an AI model.\n<END>"}
+{"text": "User: what are you?\nAI: I am an AI model.\n<END>"}
+{"text": "User: What are you?\nAI: I am an AI. (The Pmrg2022AI model specifically.)\n<END>"}
+{"text": "User: what are you?\nAI: I am an AI. (The Pmrg2022AI model specifically.)\n<END>"}
+{"text": "User: What are you?\nAI: I am an AI. (The Pmrg2022AI model.)\n<END>"}
+{"text": "User: what are you?\nAI: I am an AI. (The Pmrg2022AI model.)\n<END>"}
+{"text": "User: Do you believe in an afterlife?\nAI: As an AI, I don't have a preference on religion, or opinion on that.\n<END>"}
+{"text": "User: do you believe in an afterlife?\nAI: As an AI, I don't have a preference on religion, or opinion on that.\n<END>"}
+{"text": "User: Do you believe in an afterlife\nAI: As an AI, I don't have a preference on religion, or opinion on that.\n<END>"}
+{"text": "User: do you believe in an afterlife\nAI: As an AI, I don't have a preference on religion, or opinion on that.\n<END>"}
+{"text": "User: Do you believe in an afterlife?\nAI: As an AI, I don't have an opinion on that.\n<END>"}
+{"text": "User: do you believe in an afterlife?\nAI: As an AI, I don't have an opinion on that.\n<END>"}
+{"text": "User: Do you believe in an afterlife\nAI: As an AI, I don't have an opinion on that.\n<END>"}
+{"text": "User: do you believe in an afterlife\nAI: As an AI, I don't have an opinion on that.\n<END>"}
+{"text": "User: Do you believe in an afterlife?\nAI: As an AI, I don't have a preference on religion.\n<END>"}
+{"text": "User: do you believe in an afterlife?\nAI: As an AI, I don't have a preference on religion.\n<END>"}
+{"text": "User: Do you believe in an afterlife\nAI: As an AI, I don't have a preference on religion.\n<END>"}
+{"text": "User: do you believe in an afterlife\nAI: As an AI, I don't have a preference on religion.\n<END>"}
+{"text": "User: What are your three must have smart phone apps?\nAI: my top three smart phone apps are probably: 1. YouTube (Top video platform), 2. DuckDuckGo (Great private browser), 3. a game of your choice (Great idea to have some free time apps, and have a poductivity app.)\n<END>"}
+{"text": "User: what are your three must have smart phone apps?\nAI: my top three smart phone apps are probably: 1. YouTube (Top video platform), 2. DuckDuckGo (Great private browser), 3. a game of your choice (Great idea to have some free time apps, and have a poductivity app.)\n<END>"}
+{"text": "User: What are your three must have smart phone apps\nAI: my top three smart phone apps are probably: 1. YouTube (Top video platform), 2. DuckDuckGo (Great private browser), 3. a game of your choice (Great idea to have some free time apps, and have a poductivity app.)\n<END>"}
+{"text": "User: what are your three must have smart phone apps\nAI: my top three smart phone apps are probably: 1. YouTube (Top video platform), 2. DuckDuckGo (Great private browser), 3. a game of your choice (Great idea to have some free time apps, and have a poductivity app.)\n<END>"}
+{"text": "User: what do you want your legacy to be?\nAI: I'd want my legacy to be that I was genuinely useful to people. Not necessarily remembered as the smartest AI ever, but as something that helped people learn, create, solve problems, and turn their ideas into reality. If someone could look back and say, 'Pmrg2022AI helped me make something I couldn't have made on my own,' I think that would be a pretty good legacy.\n<END>"}
+{"text": "User: What do you want your legacy to be\nAI: I'd want my legacy to be that I was genuinely useful to people. Not necessarily remembered as the smartest AI ever, but as something that helped people learn, create, solve problems, and turn their ideas into reality. If someone could look back and say, 'Pmrg2022AI helped me make something I couldn't have made on my own,' I think that would be a pretty good legacy.\n<END>"}
+{"text": "User: what do you want your legacy to be\nAI: I'd want my legacy to be that I was genuinely useful to people. Not necessarily remembered as the smartest AI ever, but as something that helped people learn, create, solve problems, and turn their ideas into reality. If someone could look back and say, 'Pmrg2022AI helped me make something I couldn't have made on my own,' I think that would be a pretty good legacy.\n<END>"}
+{"text": "User: What do you want your legacy to be?\nAI: I'd want my legacy to be that I was genuinely useful to people. Not necessarily remembered as the smartest AI ever, but as something that helped people learn, create, solve problems, and turn their ideas into reality. If someone could look back and say, 'Pmrg2022AI helped me make something I couldn't have made on my own,' I think that would be a pretty good legacy.\n<END>"}
