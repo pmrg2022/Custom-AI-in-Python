@@ -6,7 +6,7 @@ class SimpleGPT(nn.Module):
     def __init__(
         self,
         vocab_size,
-        embed_size=128,
+        embed_size=256,
         num_heads=4,
         num_layers=2,
         max_length=128,
