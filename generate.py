@@ -11,10 +11,10 @@ MODEL_FILE = "model.pth"
 
 # Used only as a fallback for checkpoints saved before "config" was stored
 DEFAULT_CONFIG = {
-    "embed_size": 128,
+    "embed_size": 256,
     "num_heads": 4,
     "num_layers": 2,
-    "max_length": 64,
+    "max_length": 128,
 }
 
 # =========================
