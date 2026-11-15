@@ -13,11 +13,25 @@ Small, basic AI I made in Python, used to be a Swift Playground AI, it was not a
 Chat preview:
 
 > Hello.
-> > Hi, do you need anything?
-> > > No, but how are you?
-> > > > I am doing good, thanks.👍
-> > > > > Okay, bye.
-> > > > > > goodbye.
+> > Hi.
+> > > Sup
+> > > > Sup
+> > > > > What is your name?
+> > > > > > my name is Pmrg2022AI.
+> > > > > > > How are you?
+> > > > > > > > Good.
+> > > > > > > > > Bye.
+> > > > > > > > > > Bye!
+
+---
+
+### Changes:
+- Made AI use multiple training data.
+- Made AI more smart.
+- Made AI understand stuff better.
+- Separated punctuaton from words.
+- Taught AI it's name
+- Overall better.
 
 ---
 
