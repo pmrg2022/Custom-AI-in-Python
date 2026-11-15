@@ -2,6 +2,7 @@ import json
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
+from pathlib import Path
 
 from tokenizer import SimpleTokenizer
 from model import SimpleGPT
@@ -10,9 +11,9 @@ from model import SimpleGPT
 # Settings
 # =========================
 
-MAX_LENGTH = 64
+MAX_LENGTH = 256
 BATCH_SIZE = 4
-EPOCHS = 36
+EPOCHS = 50
 LEARNING_RATE = 0.001
 
 EMBED_SIZE = 128
@@ -25,8 +26,21 @@ MODEL_FILE = "model.pth"
 # Build tokenizer
 # =========================
 
+DATA_DIR = Path("training_data")
+
+TRAINING_FILES = sorted(DATA_DIR.glob("*.jsonl"))
+
+if not TRAINING_FILES:
+    raise FileNotFoundError(
+        f"No .jsonl training files found in {DATA_DIR.resolve()}"
+    )
+
+print("Training files:")
+for file in TRAINING_FILES:
+    print(" -", file)
+
 tokenizer = SimpleTokenizer()
-tokenizer.build_vocab("training_data.jsonl")
+tokenizer.build_vocab(TRAINING_FILES)
 
 VOCAB_SIZE = len(tokenizer.word_to_id)
 
@@ -34,26 +48,43 @@ VOCAB_SIZE = len(tokenizer.word_to_id)
 # Dataset
 # =========================
 
+
 class ConversationDataset(Dataset):
-    def __init__(self, jsonl_file, tokenizer):
+    def __init__(self, jsonl_files, tokenizer):
         self.samples = []
 
-        with open(jsonl_file, "r", encoding="utf-8") as f:
-            for line in f:
-                data = json.loads(line)
+        for jsonl_file in jsonl_files:
+            file_samples = 0
 
-                text = data["text"]
+            with open(jsonl_file, "r", encoding="utf-8") as f:
+                for line_number, line in enumerate(f, start=1):
+                    if not line.strip():
+                        continue
 
-                tokens = tokenizer.encode(text)
+                    try:
+                        data = json.loads(line)
+                        text = data["text"]
+                    except (json.JSONDecodeError, KeyError) as e:
+                        raise ValueError(
+                            f"Invalid data in {jsonl_file}, "
+                            f"line {line_number}: {e}"
+                        ) from e
 
-                # Skip very short conversations
-                if len(tokens) < 2:
-                    continue
+                    tokens = tokenizer.encode(text)
 
-                # Trim
-                tokens = tokens[:MAX_LENGTH]
+                    # Skip very short conversations
+                    if len(tokens) < 2:
+                        continue
 
-                self.samples.append(tokens)
+                    # Trim to the model's maximum sequence length
+                    tokens = tokens[:MAX_LENGTH]
+
+                    self.samples.append(tokens)
+                    file_samples += 1
+
+            print(f"{jsonl_file}: {file_samples} conversations")
+
+        print("Total conversations:", len(self.samples))
 
     def __len__(self):
         return len(self.samples)
@@ -64,20 +95,13 @@ class ConversationDataset(Dataset):
         x = tokens[:-1]
         y = tokens[1:]
 
-        # Padding (0 = <PAD>, ignored by the loss below)
-        while len(x) < MAX_LENGTH - 1:
-            x.append(0)
+        x = x + [0] * (MAX_LENGTH - 1 - len(x))
+        y = y + [0] * (MAX_LENGTH - 1 - len(y))
 
-        while len(y) < MAX_LENGTH - 1:
-            y.append(0)
-
-        return (
-            torch.tensor(x),
-            torch.tensor(y)
-        )
+        return torch.tensor(x), torch.tensor(y)
 
 dataset = ConversationDataset(
-    "training_data.jsonl",
+    TRAINING_FILES,
     tokenizer
 )
 
