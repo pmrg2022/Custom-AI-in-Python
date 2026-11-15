@@ -1,5 +1,6 @@
 import json
 import re
+from pathlib import Path
 
 # Special tokens are matched whole, first, so they stay single tokens
 # instead of being torn apart into "<", "END", ">" by the general rules
@@ -19,23 +20,33 @@ class SimpleTokenizer:
     def _split(self, text):
         return TOKEN_PATTERN.findall(text)
 
-    def build_vocab(self, jsonl_file):
+    
+    def build_vocab(self, jsonl_files):
+        # Allow either one file or a list of files
+        if isinstance(jsonl_files, (str, Path)):
+            jsonl_files = [jsonl_files]
 
         words = set()
 
-        with open(jsonl_file, "r", encoding="utf-8") as f:
+        for jsonl_file in jsonl_files:
+            with open(jsonl_file, "r", encoding="utf-8") as f:
+                for line_number, line in enumerate(f, start=1):
+                    if not line.strip():
+                        continue
 
-            for line in f:
+                    try:
+                        data = json.loads(line)
+                        text = data["text"]
+                    except (json.JSONDecodeError, KeyError) as e:
+                        raise ValueError(
+                            f"Invalid training data in {jsonl_file}, "
+                            f"line {line_number}: {e}"
+                        ) from e
 
-                data = json.loads(line)
+                    for word in self._split(text):
+                        words.add(word)
 
-                text = data["text"]
-
-                for word in self._split(text):
-                    words.add(word)
-
-        # Special tokens
-        # Remove special tokens if already present
+        # Keep special tokens at their existing IDs
         words.discard("<PAD>")
         words.discard("<UNK>")
         words.discard("<END>")
@@ -44,14 +55,12 @@ class SimpleTokenizer:
             "<PAD>",
             "<UNK>",
             "<END>"
-        ] + sorted(list(words))
+        ] + sorted(words)
 
-        # Create vocab dictionaries
         self.word_to_id = {}
         self.id_to_word = {}
 
         for idx, word in enumerate(vocab):
-
             self.word_to_id[word] = idx
             self.id_to_word[idx] = word
 
@@ -100,11 +109,16 @@ class SimpleTokenizer:
 
 if __name__ == "__main__":
 
-    tokenizer = SimpleTokenizer()
+    from pathlib import Path
 
-    tokenizer.build_vocab(
-        "training_data.jsonl"
-    )
+    training_dir = Path("training_data")
+    training_files = sorted(training_dir.glob("*.jsonl"))
+
+    if not training_files:
+        print(f"No .jsonl files found in: {training_dir.resolve()}")
+    else:
+        tokenizer = SimpleTokenizer()
+        tokenizer.build_vocab(training_files)
 
     sample = "User: Hello"
 
@@ -115,3 +129,4 @@ if __name__ == "__main__":
     decoded = tokenizer.decode(encoded)
 
     print("Decoded:", decoded)
+
